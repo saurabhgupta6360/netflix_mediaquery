@@ -1,0 +1,505 @@
+@media (min-width: 1281px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .menu ul li {
+    position: relative;
+  }
+
+  .menu {
+    color: #fff;
+  }
+
+  .submenu {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    transition: 1s;
+    transform: scale(0);
+    transform-origin: left;
+  }
+
+  .menu ul li:hover .submenu {
+    transform: scaleX(1);
+  }
+
+  .menu ul li:hover .submenu {
+    background: #fff;
+    color: #000;
+    width: 100%;
+    padding: 3px;
+    border-radius: 0.25rem;
+  }
+
+  .ftr-detail {
+    padding: 1rem;
+  }
+
+  .ftr {
+    margin-top: 0.5rem;
+  }
+
+  .kids .d-sec img {
+    width: auto;
+  }
+
+  .main-ask {
+    padding: 1rem;
+  }
+
+  .faq-img img {
+    width: 100%;
+  }
+
+  .ask h2 {
+    font-size: 2rem;
+    padding: 1.5rem 0 1.5rem;
+  }
+
+  .watch .vid .vd {
+    max-width: 33%;
+    max-height: 60%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(22.3%, -50%);
+  }
+
+  .kids {
+    padding: 2rem;
+  }
+
+  .enj {
+    padding-top: 1.5rem;
+    display: inline-block;
+    justify-content: space-between;
+  }
+
+  .hero-tittle h1 {
+    font-size: 2rem;
+  }
+
+  .hero-tittle {
+    text-align: center;
+    margin: 63px 16px 0;
+  }
+
+  .enj .cnt {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+
+  .enj .cnt h2 {
+    font-size: 2.5rem;
+  }
+
+  .enj .cnt p {
+    font-size: 1.2rem;
+  }
+  .main-enj {
+    text-align: center;
+  }
+  .main-enj {
+    padding: 2rem;
+  }
+
+  .vid .vd {
+    max-width: 66%;
+    max-height: 40%;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50.8%, -50%);
+  }
+
+  .d-data {
+    padding-top: 1.5rem;
+    display: inline-block;
+  }
+
+  .d-sec img {
+    width: 100%;
+  }
+
+  .main-down {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .d-h {
+    margin-top: 3rem;
+  }
+
+  .d-h h2 {
+    font-size: 2.2rem;
+  }
+
+  .d-h p {
+    font-size: 1.2rem;
+  }
+
+  .watch .vid .vd {
+    max-width: 59%;
+    max-height: 34%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-52.7%, -50%);
+  }
+
+  .header-bg {
+    min-height: 500px;
+  }
+
+  .right-panal {
+    margin-right: 0.5rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .right-panal {
+    margin-right: 0.5rem;
+  }
+
+  .menu ul li {
+    position: relative;
+  }
+
+  .menu {
+    color: #fff;
+  }
+
+  .submenu {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    transition: 1s;
+    transform: scale(0);
+    transform-origin: left;
+  }
+
+  .menu ul li:hover .submenu {
+    transform: scaleX(1);
+  }
+
+  .menu ul li:hover .submenu {
+    background: #fff;
+    color: #000;
+    width: 100%;
+    padding: 3px;
+    border-radius: 0.25rem;
+  }
+
+  .main-down {
+    text-align: center;
+  }
+
+  .faq-img img {
+    width: 100%;
+  }
+
+  .int .btn {
+    margin-top: 1rem;
+  }
+
+  .int .fld {
+    width: 60%;
+  }
+
+  .header-bg {
+    min-height: 530px;
+  }
+
+  .ques p {
+    font-size: 1.125rem;
+  }
+
+  .main-ask {
+    padding: 1rem;
+  }
+
+  .ask h2 {
+    font-size: 2rem;
+    padding: 1.5rem 0 1.5rem;
+  }
+
+  .faq-img img {
+    width: 100%;
+  }
+
+  .vid img {
+    width: 100%;
+  }
+
+  .enj .cnt {
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  .vid .vd {
+    max-width: 73%;
+    max-height: 35%;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50.7%, -50%);
+  }
+
+  .watch .vid .vd {
+    max-width: 63%;
+    max-height: 37%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50.7%, -50%);
+  }
+
+  .enj {
+    padding-top: 1.5rem;
+    display: inline-block;
+    justify-content: space-between;
+  }
+
+  .hero-tittle h1 {
+    font-size: 1.8rem;
+  }
+  .hero-tittle {
+    text-align: center;
+    margin: 16px;
+    padding: 3.5rem 0 2rem;
+  }
+
+  .hero-tittle p {
+    font-size: 1rem;
+  }
+
+  .hero-tittle h3 {
+    font-size: 1rem;
+  }
+  .header .logo img {
+    max-width: 120px;
+  }
+
+  .enj .cnt h2 {
+    font-size: 2rem;
+  }
+
+  .enj .cnt p {
+    font-size: 1.125rem;
+  }
+
+  .main-enj {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .d-data {
+    padding-top: 1.5rem;
+    display: inline-block;
+  }
+
+  .d-sec img {
+    width: 100%;
+  }
+
+  .d-h {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .d-h h2 {
+    font-size: 2rem;
+  }
+
+  .main-down {
+    padding: 1rem;
+  }
+
+  .d-h p {
+    font-size: 1.125rem;
+  }
+
+  .ftr-detail {
+    padding: 1rem;
+  }
+
+  .ftr {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .right-panal {
+    margin-right: 0.5rem;
+  }
+
+  .menu ul li {
+    position: relative;
+  }
+
+  .menu {
+    color: #fff;
+  }
+
+  .submenu {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    transition: 1s;
+    transform: scale(0);
+    transform-origin: left;
+  }
+
+  .menu ul li:hover .submenu {
+    transform: scaleX(1);
+  }
+
+  .menu ul li:hover .submenu {
+    background: #fff;
+    color: #000;
+    width: 100%;
+    padding: 3px;
+    border-radius: 0.25rem;
+  }
+
+  .ftr-detail {
+    padding: 1rem;
+  }
+
+  .ftr {
+    margin-top: 0.5rem;
+  }
+
+  .int .btn {
+    margin-top: 1rem;
+  }
+
+  .int .fld {
+    width: 60%;
+  }
+
+  .header-bg {
+    min-height: 547px;
+  }
+
+  .ques p {
+    font-size: 1.125rem;
+  }
+
+  .main-ask {
+    padding: 1rem;
+  }
+
+  .ask h2 {
+    font-size: 2rem;
+    padding: 1.5rem 0 1.5rem;
+  }
+
+  .faq-img img {
+    width: 100%;
+  }
+
+  .vid img {
+    width: 100%;
+  }
+
+  .enj .cnt {
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  .vid .vd {
+    max-width: 73%;
+    max-height: 35%;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50.7%, -50%);
+  }
+
+  .watch .vid .vd {
+    max-width: 63%;
+    max-height: 37%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50.7%, -50%);
+  }
+
+  .enj {
+    padding-top: 1.5rem;
+    display: inline-block;
+    justify-content: space-between;
+  }
+
+  .hero-tittle h1 {
+    font-size: 1.8rem;
+  }
+  .hero-tittle {
+    text-align: center;
+    margin: 16px;
+    padding: 3.5rem 0 2rem;
+  }
+
+  .hero-tittle p {
+    font-size: 1rem;
+  }
+
+  .hero-tittle h3 {
+    font-size: 1rem;
+  }
+  .header .logo img {
+    max-width: 90px;
+  }
+
+  .enj .cnt h2 {
+    font-size: 2rem;
+  }
+
+  .enj .cnt p {
+    font-size: 1.125rem;
+  }
+
+  .main-enj {
+    padding: 1rem;
+  }
+
+  .d-data {
+    padding-top: 1.5rem;
+    display: inline-block;
+  }
+
+  .d-sec img {
+    width: 100%;
+  }
+
+  .d-h {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .d-h h2 {
+    font-size: 2rem;
+  }
+
+  .main-down {
+    padding: 1rem;
+  }
+
+  .d-h p {
+    font-size: 1.125rem;
+  }
+
+  /* .header .right-panal li {
+    padding: 0 7px 0 0;
+  } */
+
+  .eng-btn {
+    padding: 8px 14px 8px 14px;
+  }
+
+  .sng-btn {
+    padding: 8px 14px 8px 14px;
+  }
+}
